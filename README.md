@@ -1,7 +1,8 @@
 # saberi_apm
 
 ## Project setup
-```
+
+sudo npm install --unsafe-perm node-sass```
 npm install
 ```
 
