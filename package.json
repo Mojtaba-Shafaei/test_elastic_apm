@@ -1,5 +1,5 @@
 {
-  "name": "saberi_apm",
+  "name": "test_apm",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
+    "@elastic/apm-rum": "^4.4.4",
     "@mdi/font": "^3.6.95",
     "core-js": "^2.6.5",
     "elastic-apm-js-base": "^3.0.0",
@@ -32,7 +33,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.9.0",
+
     "prettier": "^1.18.2",
     "sass-loader": "^7.1.0",
     "typescript": "^3.4.3",
