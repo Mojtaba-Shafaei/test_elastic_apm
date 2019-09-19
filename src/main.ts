@@ -6,14 +6,13 @@ import vuetify from "./plugins/vuetify";
 import "@babel/polyfill";
 import "roboto-fontface/css/roboto/roboto-fontface.css";
 import "@mdi/font/css/materialdesignicons.css";
-import { init as initApm } from "@elastic/apm-rum";
 
 Vue.config.productionTip = false;
-const apm = initApm({
+
+import { init as initApm } from "@elastic/apm-rum";
+var apm = initApm({
   // Set required service name (allowed characters: a-z, A-Z, 0-9, -, _, and space)
-  serviceName: "apm-server",
-  // Set custom APM Server URL (default: http://localhost:8200)
-  serverUrl: "http://localhost:8200"
+  serviceName: "vuetify-node"
 });
 
 new Vue({
