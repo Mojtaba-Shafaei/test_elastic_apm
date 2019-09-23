@@ -25,7 +25,8 @@ export default Vue.extend({
       this.$router.push("/Page3");
     },
     load_api_data() {
-      axios.get("https://testapi.io/api/Mojtaba-Shafaei/users").pipe(map);
+      axios.get("https://testapi.io/api/Mojtaba-Shafaei/users")
+              .then(value => console.log(value.status + ' '+ value ));
     }
   }
 });
